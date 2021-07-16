@@ -68,8 +68,8 @@ Print on the console the time after **30** minutes. The result should be in form
 
 ### Constraints
 
-- **??** The **hours** will be between **0 and 23**.
-- **??** The **minutes** will be between **0 and 59**.
+-  The **hours** will be between **0 and 23**.
+-  The **minutes** will be between **0 and 59**.
 
 ### Examples
 
@@ -134,8 +134,8 @@ Print the price of the ticket according to the table, or &quot; **Error!**&quot;
 
 ### Constraints
 
-- **??** The age will be in the interval **[-1000…1000]**.
-- **??** The type of day will **always be valid**.
+- The age will be in the interval **[-1000…1000]**.
+- The type of day will **always be valid**.
 
 ### Examples
 
@@ -162,7 +162,7 @@ Print the next **n** odd numbers, starting from **1** , separated by **new lines
 
 ### Constraints
 
-- **??** **n** will be in the interval **[1…100]**
+- **n** will be in the interval **[1…100]**
 
 ### Examples
 
@@ -186,7 +186,7 @@ Print every row of the table in the following format:
 
 ### Constraints
 
-- **??** The integer will be in the interval **[1…100]**
+- The integer will be in the interval **[1…100]**
 
 ### Examples
 
@@ -215,7 +215,7 @@ Print every row of the table in the following format:
 
 ### Constraints
 
-- **??** The integer will be in the interval **[1…100]**
+- The integer will be in the interval **[1…100]**
 
 ### Examples
 
