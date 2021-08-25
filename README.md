@@ -27,6 +27,6 @@
 
 | **Course**                                                                                  | **Link**                                                                    |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| <a href ="https://softuni.bg/trainings/3366/java-fundamentals-may-2021/internal#lesson-28117" > Programming Fundamentals with Java </a> |
+| <a href ="https://softuni.bg/trainings/3366/java-fundamentals-may-2021/internal#lesson-28117" > Programming Fundamentals with Java </a> | <a href="https://softuni.bg/certificates/details/111448/60193b38"> Link</a>
 
 </td>
