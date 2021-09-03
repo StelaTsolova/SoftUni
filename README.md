@@ -1,8 +1,10 @@
 # <p align="center"> Courses from the main program in SoftUni <p>
-
+  
+<br/>
+  
 <a href="https://softuni.bg/trainings/courses" rel="Courses"> ![SoftUni logo][logo] </a>
-
-[logo]: https://i.ibb.co/2hfV3Lg/3.png "Logo Title" 
+  
+[logo]: https://nakov.com/wp-content/uploads/2012/03/Software-University-logo-horizontal.png "Logo Title" 
 
 <br/>
 
@@ -27,6 +29,6 @@
 
 | **Course**                                                                                  | **Link**                                                                    |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| <a href ="https://softuni.bg/trainings/3366/java-fundamentals-may-2021/internal#lesson-28117" > Programming Fundamentals with Java </a> | <a href="https://softuni.bg/certificates/details/111448/60193b38"> Link</a>
-
+| <a href ="https://softuni.bg/trainings/3366/java-fundamentals-may-2021/internal#lesson-28117" > Programming Fundamentals with Java </a> | <a href="https://softuni.bg/certificates/details/111448/60193b38" > Link</a>
+| <a href = "https://softuni.bg/trainings/3485/java-advanced-september-2021/internal" > Java Advanced </a> |                                                          |
 </td>
