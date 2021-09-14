@@ -23,7 +23,7 @@ Write a program, which **counts all characters** in a string **except space (' '
 Until you receive **"stop"** command, you will be given a sequence of strings, each on a new line. Every **odd** line on the console is representing 
 a **resource** (e.g. Gold, Silver, Copper, etc.) and every **even** - **quantity**. Your task is to collect the resources and print them each on a new line.
 
-**Print the resources and their quantities in format:** **{resource} --> {quantity}**
+**Print the resources and their quantities in format: {resource} -> {quantity}**
 
 The quantities inputs will be in the range **[1 ... 2 000 000 000]**
 
@@ -251,8 +251,8 @@ ordered by the count of registered users in **descending** order. For each conte
 
 Write a program, which keeps information about **students** and **their grades**.
 
-On the first line you will receive number **n**. After that you will receive **n pair of rows**. First you will receive the **student's name, after that you will receive his grade. 
-****Check if student already exists, and if not - add him**. Keep track of all grades for each student.
+On the first line you will receive number **n**. After that you will receive **n pair of rows**. First you will receive the **student's name**, after that you will receive his grade. 
+**Check if student already exists, and if not - add him**. Keep track of all grades for each student.
 
 When you finish reading data, keep students with **average grade higher or equal to 4.50**. Order filtered students by **average grade in descending order**.
 
