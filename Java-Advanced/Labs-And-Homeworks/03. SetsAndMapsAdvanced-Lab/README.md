@@ -252,7 +252,7 @@ Write a program that:
 
   o Second line is his **score** for different number of courses.
 
-- Print on console "**{name} is graduated with {average scores)**".
+- Print on console **"{name} is graduated with {average scores)"**.
 
 ### Examples
 
