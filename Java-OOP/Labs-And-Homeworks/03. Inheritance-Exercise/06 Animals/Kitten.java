@@ -1,0 +1,14 @@
+package Animals_6;
+
+public class Kitten extends Cat {
+    public static final String KITTEN_GENDER = "Female";
+
+    public Kitten(String name, int age) {
+        super(name, age, KITTEN_GENDER);
+    }
+
+    @Override
+    public String produceSound() {
+        return "Meow";
+    }
+}
