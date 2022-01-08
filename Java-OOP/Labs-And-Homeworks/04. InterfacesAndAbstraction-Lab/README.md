@@ -8,22 +8,21 @@ Your hierarchy have to be used with this code
 
 | **Main.java** |
 | --- |
-| public static void main(String[] args) {                  |
-| &nbsp; Car seat = new Seat("Leon", "gray", 110, "Spain"); |
-| <br>                                                      |
-| &nbsp; System.out.println(String.format(               |
-| &nbsp;&nbsp;&nbsp;&nbsp; "%s is %s color and have %s horse power",    |
-| &nbsp;&nbsp;&nbsp;&nbsp; seat.getModel(),                             |
-| &nbsp;&nbsp;&nbsp;&nbsp; seat.getColor(),                             |
-| &nbsp;&nbsp;&nbsp;&nbsp; seat.getHorsePower()));                      |
-| &nbsp; System.out.println(seat.toString());                |
-| }                                                         |
+| public static void main(String[] args) {                           |
+| &nbsp; Car seat = new Seat("Leon", "gray", 110, "Spain");          |
+| <br>                                                               |
+| &nbsp; System.out.println(String.format(                           |
+| &nbsp;&nbsp;&nbsp;&nbsp; "%s is %s color and have %s horse power", |
+| &nbsp;&nbsp;&nbsp;&nbsp; seat.getModel(),                          |
+| &nbsp;&nbsp;&nbsp;&nbsp; seat.getColor(),                          |
+| &nbsp;&nbsp;&nbsp;&nbsp; seat.getHorsePower()));                   |
+| &nbsp; System.out.println(seat.toString());                        |
+| }                                                                  |
 
 ### Examples
 
 | **Input** | **Output** |  
-| --- | --- |![148087678-6fe39e4c-f160-4e19-a6ae-1b8c4f282cf8](https://user-images.githubusercontent.com/87463484/148089430-fa71ab09-8719-47a6-a679-f5bb081b37c2.png)
-
+| --- | --- |
 | | Leon is gray color and have 110 horse power     |
 | | This is Leon produced in Spain and have 4 tires |
 
