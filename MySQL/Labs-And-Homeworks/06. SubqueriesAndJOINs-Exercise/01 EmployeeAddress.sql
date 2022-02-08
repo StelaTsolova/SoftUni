@@ -1,0 +1,6 @@
+SELECT e.`employee_id`, e.`job_title`, a.`address_id`, a.`address_text`
+FROM `employees` AS e
+JOIN `addresses` AS a
+USING(`address_id`)
+ORDER BY `address_id`
+LIMIT 5;
