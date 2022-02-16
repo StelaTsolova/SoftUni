@@ -31,7 +31,8 @@
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <a href = "https://softuni.bg/trainings/3366/java-fundamentals-may-2021" > Programming Fundamentals with Java </a> | <a href= "https://softuni.bg/certificates/details/111448/60193b38" > Link </a> |
 | <a href = "https://softuni.bg/trainings/3485/java-advanced-september-2021" > Java Advanced </a>                    | <a href= "https://softuni.bg/certificates/details/114500/6a0b217b" > Link </a> |
-| <a href = "https://softuni.bg/trainings/3486/java-oop-october-2021"  > Java OOP </a>                               | <a href= "https://softuni.bg/certificates/details/120181/2c99dce4" > Link </a> |
+| <a href = "https://softuni.bg/trainings/3486/java-oop-october-2021" > Java OOP </a>                                | <a href= "https://softuni.bg/certificates/details/120181/2c99dce4" > Link </a> |
+| <a href = "https://softuni.bg/trainings/3602/mysql-january-2022" > MySQL </a>                                      | <a href= "https://softuni.bg/certificates/details/123304/76197351" > Link </a> |
   
 </td>                                                         
 </td>
