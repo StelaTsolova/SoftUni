@@ -1,0 +1,103 @@
+{
+  "usersCount": 3,
+  "users": [
+    {
+      "firstName": "Fred",
+      "lastName": "Allen",
+      "age": 57,
+      "soldProducts": {
+        "count": 8,
+        "products": [
+          {
+            "name": "DAYWEAR PLUS MULTI PROTECTION TINTED MOISTURIZER",
+            "price": 555.12
+          },
+          {
+            "name": "PANTOPRAZOLE SODIUM",
+            "price": 293.89
+          },
+          {
+            "name": "Gemcitabine",
+            "price": 594.79
+          },
+          {
+            "name": "kirkland signature minoxidil",
+            "price": 49.17
+          },
+          {
+            "name": "Trihexyphenidyl Hydrochloride",
+            "price": 64.88
+          },
+          {
+            "name": "Agaricus Equisetum Special Order",
+            "price": 585.93
+          },
+          {
+            "name": "Lamotrigine Extended Release",
+            "price": 245.63
+          },
+          {
+            "name": "Lorazepam",
+            "price": 1134.96
+          }
+        ]
+      }
+    },
+    {
+      "firstName": "Eugene",
+      "lastName": "Stewart",
+      "age": 65,
+      "soldProducts": {
+        "count": 3,
+        "products": [
+          {
+            "name": "ERYTHROMYCIN Base Filmtab",
+            "price": 117.84
+          },
+          {
+            "name": "SNORING HP",
+            "price": 53.59
+          },
+          {
+            "name": "Care One Hemorrhoidal",
+            "price": 932.18
+          }
+        ]
+      }
+    },
+    {
+      "firstName": "Marie",
+      "lastName": "Williamson",
+      "age": 0,
+      "soldProducts": {
+        "count": 6,
+        "products": [
+          {
+            "name": "ROPINIROLE HYDROCHLORIDE",
+            "price": 266.44
+          },
+          {
+            "name": "Dover Aminophen",
+            "price": 192.07
+          },
+          {
+            "name": "XANTHIUM STRUMARIUM VAR CANADENSE POLLEN",
+            "price": 1091.38
+          },
+          {
+            "name": "Homeopathic Rheumatism",
+            "price": 967.08
+          },
+          {
+            "name": "Fair Foundation SPF 15",
+            "price": 1394.24
+          },
+          {
+            "name": "Amitiza",
+            "price": 666.58
+          }
+        ]
+      }
+    }
+  ]
+}

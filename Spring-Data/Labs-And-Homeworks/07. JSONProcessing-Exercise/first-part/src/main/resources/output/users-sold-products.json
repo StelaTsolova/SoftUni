@@ -1,0 +1,18 @@
+[
+  {
+    "firstName": "Eugene",
+    "lastName": "Stewart",
+    "soldProducts": [
+      {
+        "name": "ERYTHROMYCIN Base Filmtab",
+        "price": 117.84
+      },
+      {
+        "name": "Care One Hemorrhoidal",
+        "price": 932.18,
+        "buyerFirstName": "Anna",
+        "buyerLastName": "Clark"
+      }
+    ]
+  }
+]
