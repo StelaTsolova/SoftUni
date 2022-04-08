@@ -1,0 +1,36 @@
+package com.example.exercisexmlprocessing.utils.impls;
+
+import com.example.exercisexmlprocessing.utils.XmlParser;
+import org.springframework.stereotype.Component;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+@Component
+public class XmlParserImpl implements XmlParser {
+
+    private JAXBContext jaxbContext;
+
+    @Override
+    @SuppressWarnings("unchecked")
+    public <T> T fromXml(String filePath, Class<T> typeClass) throws JAXBException, IOException {
+        this.jaxbContext = JAXBContext.newInstance(typeClass);
+        Unmarshaller unmarshaller = this.jaxbContext.createUnmarshaller();
+
+        return (T) unmarshaller.unmarshal(new FileReader(filePath));
+    }
+
+    @Override
+    public <T> void toXml(String filePath, T entity) throws JAXBException {
+        this.jaxbContext = JAXBContext.newInstance(entity.getClass());
+        Marshaller marshaller = this.jaxbContext.createMarshaller();
+        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+
+        marshaller.marshal(entity, new File(filePath));
+    }
+}
