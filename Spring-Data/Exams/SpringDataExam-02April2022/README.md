@@ -79,7 +79,7 @@ Design them in the **most appropriate** way, considering the following **data co
 - **id** - accepts **integer** values, a **primary identification field, an auto incremented field**.
 - **first name** - accepts **char sequences** as valueswhere their character length value **higher than or equal to 2.** The values are **unique in the database**.
 - **last name** - accepts **char sequences** as valueswhere their character length value **higher than or equal to 2**.
-- **email** - an **email** - (must contains '@' and '.' -- dot). The email of a seller is **unique**.
+- **email** - an **email** - (must contains '@' and '.' - dot). The email of a seller is **unique**.
 - **Constraint**: The agents table has а relation with the towns table. 
 
 ### Apartment
@@ -242,41 +242,41 @@ Your new colleagues have prepared some XML data for you to import.
 
 | **Apartments (apartments.xml)** |
 | --- |
-| \<?xml version='1.0' encoding='UTF-8'?>                                                                                          |
-| \<apartments>                                                                                                                    |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                                                |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartmentType>three_rooms</apartmentType> |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<area>53.47</area>                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<town>Lille</town>                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                                               |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                                                |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartmentType>two_rooms</apartmentType>   |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<area>87.72</area>                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<town>Nicosia</town>                       |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                                               |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                                                |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartmentType>three_rooms</apartmentType> |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<area>63.52</area>                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<town>Sofia</town>                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                                               |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                                                |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartmentType>two_rooms</apartmentType>   |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<area>53.47</area>                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<town>Lille</town>                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                                               |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                                                |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartmentType>two_rooms</apartmentType>   |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<area>40.45</area>                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<town>Nicosia</town>                       |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                                               |
-| ...                                                                                                                              |
-|                                                                                                                                  |
-| Successfully imported apartment three_rooms - 53.47                                                                              |
-| Successfully imported apartment two_rooms - 87.72                                                                                |
-| Successfully imported apartment three_rooms - 63.52                                                                              |
-| Invalid apartment                                                                                                                |
-| Successfully imported apartment two_rooms - 40.45                                                                                |
-| ...                                                                                                                              |
+| \<?xml version='1.0' encoding='UTF-8'?>                                                                                           |
+| \<apartments>                                                                                                                     |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                                                 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartmentType>three_rooms\</apartmentType> |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<area>53.47\</area>                         |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<town>Lille\</town>                         |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                                                |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                                                 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartmentType>two_rooms\</apartmentType>   |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<area>87.72\</area>                         |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<town>Nicosia\</town>                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                                                |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                                                 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartmentType>three_rooms\</apartmentType> |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<area>63.52\</area>                         |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<town>Sofia\</town>                         |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                                                |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                                                 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartmentType>two_rooms\</apartmentType>   |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<area>53.47\</area>                         |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<town>Lille\</town>                         |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                                                |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                                                 |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartmentType>two_rooms\</apartmentType>   |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<area>40.45\</area>                         |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<town>Nicosia\</town>                       |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                                                |
+| ...                                                                                                                               |
+|                                                                                                                                   |
+| Successfully imported apartment three_rooms - 53.47                                                                               |
+| Successfully imported apartment two_rooms - 87.72                                                                                 |
+| Successfully imported apartment three_rooms - 63.52                                                                               |
+| Invalid apartment                                                                                                                 |
+| Successfully imported apartment two_rooms - 40.45                                                                                 |
+| ...                                                                                                                               |
 
 **Constraint:**
 
@@ -286,53 +286,53 @@ Your new colleagues have prepared some XML data for you to import.
 
 | **Offers (offer.xml)** |
 | --- |
-| \<?xml version='1.0' encoding='UTF-8'?>                                                                                                                    | 
-| \<offers>                                                                                                                                                  | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<offer>                                                                                                              | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<price>206934.00</price>                                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<agent>                                                              |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<name>Dotti</name>   |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</agent>                                                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                          |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<id>56</id>          |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<publishedOn>28/12/2005</publishedOn>                                |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</offer>                                                                                                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<offer>                                                                                                              |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<price>178562.00</price>                                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<agent>                                                              |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<name>Pablo</name>   |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</agent>                                                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                          |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<id>21</id>          |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<publishedOn>18/11/2011</publishedOn>                                |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</offer>                                                                                                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<offer>                                                                                                              |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<price>857076.00</price>                                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<agent>                                                              |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<name>Glennie</name> |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</agent>                                                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                          |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<id>49</id>          |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<publishedOn>26/07/2005</publishedOn>                                |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</offer>                                                                                                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<offer>                                                                                                              | 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<price>648855.00</price>                                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<agent>                                                              |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<name>Chadd</name>   |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</agent>                                                             |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                          |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<id>58</id>          |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<publishedOn>25/08/2014</publishedOn>                                |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</offer>                                                                                                             |
-| ...                                                                                                                                                        |
-| Successfully imported offer 206934.00                                                                                                                      |
-| Invalid offer                                                                                                                                              |
-| Successfully imported offer 857076.00                                                                                                                      |
-| Successfully imported offer 648855.00                                                                                                                      |
+| \<?xml version='1.0' encoding='UTF-8'?>                                                                                                                     | 
+| \<offers>                                                                                                                                                   | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<offer>                                                                                                               | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<price>206934.00\</price>                                             |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<agent>                                                               |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<name>Dotti\</name>   |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</agent>                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                           |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<id>56\</id>          |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                          |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<publishedOn>28/12/2005\</publishedOn>                                |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</offer>                                                                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<offer>                                                                                                               |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<price>178562.00\</price>                                             |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<agent>                                                               |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<name>Pablo\</name>   |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</agent>                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                           |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<id>21\</id>          |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                          |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<publishedOn>18/11/2011\</publishedOn>                                |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</offer>                                                                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<offer>                                                                                                               |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<price>857076.00\</price>                                             |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<agent>                                                               |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<name>Glennie\</name> |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</agent>                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                           |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<id>49\</id>          |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                          |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<publishedOn>26/07/2005\</publishedOn>                                |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</offer>                                                                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<offer>                                                                                                               | 
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<price>648855.00\</price>                                             |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<agent>                                                               |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<name>Chadd\</name>   |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</agent>                                                              |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<apartment>                                                           |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<id>58\</id>          |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</apartment>                                                          |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \<publishedOn>25/08/2014\</publishedOn>                                |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \</offer>                                                                                                              |
+| ...                                                                                                                                                         |
+| Successfully imported offer 206934.00                                                                                                                       |
+| Invalid offer                                                                                                                                               |
+| Successfully imported offer 857076.00                                                                                                                       |
+| Successfully imported offer 648855.00                                                                                                                       |
 
 # 5. Data Export
 
@@ -351,4 +351,3 @@ Get ready to export the data you have imported in the previous task. Here you wi
 **. . . "**
 
 ![image](https://user-images.githubusercontent.com/87463484/167254524-84481090-4cea-429f-9a37-f20eec8b90cb.png)
-
