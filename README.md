@@ -35,6 +35,7 @@
 | <a href="https://softuni.bg/trainings/3602/mysql-january-2022"> MySQL </a>                                      | <a href="https://softuni.bg/certificates/details/123304/76197351"> Link </a> |
 | <a href="https://softuni.bg/trainings/3592/spring-data-february-2022"> Spring Data </a>                         | <a href="https://softuni.bg/certificates/details/130739/69930690"> Link </a> |
 | <a href="https://softuni.bg/trainings/3710/spring-fundamentals-may-2022"> Spring Fundamentals </a>              | <a href="https://softuni.bg/certificates/details/136845/0ec8577a"> Link </a> |
-
+| <a href="https://softuni.bg/trainings/3711/spring-advanced-june-2022"> Spring Advanced </a>                     | <a href="https://softuni.bg/certificates/details/141821/69ba39c5"> Link </a> |
+  
 </td>                                                         
 </td>
