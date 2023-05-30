@@ -13,18 +13,12 @@
 <table>
 
 <tr>
-  <th> C# </th>
   <th> Java </th>
+  <th> JS </th>
+  <th> C# </th>
 </tr>
 
 <tr>
-<td>
-
-| **Course**                                                                                                              | **Link**                                                                     |
-| ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| <a href="https://softuni.bg/trainings/3319/programming-basics-with-csharp-march-2021" > Programming Basics with C# </a> | <a href="https://softuni.bg/certificates/details/105260/bc53ea56"> Link </a> |
-
-</td>
 <td>
 
 | **Course**                                                                                                      | **Link**                                                                     |
@@ -38,4 +32,18 @@
 | <a href="https://softuni.bg/trainings/3711/spring-advanced-june-2022"> Spring Advanced </a>                     | <a href="https://softuni.bg/certificates/details/141821/69ba39c5"> Link </a> |
   
 </td>                                                         
+<td>
+  
+| **Course**                                                                                                              | **Link**                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| <a href="https://softuni.bg/trainings/3961/js-advanced-january-2023" > JS Advanced </a>                                 | <a href="https://softuni.bg/certificates/details/167991/75431866"> Link </a> |
+
+</td>
+<td>
+
+| **Course**                                                                                                              | **Link**                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| <a href="https://softuni.bg/trainings/3319/programming-basics-with-csharp-march-2021" > Programming Basics with C# </a> | <a href="https://softuni.bg/certificates/details/105260/bc53ea56"> Link </a> |
+
+</td>
 </td>
